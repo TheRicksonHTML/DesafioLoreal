@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+
+}
+
+p{
+background-color: rgb(64, 89, 255);
+}
+//propriedade: display: flex;
+// coloca todos os filhos um ao lado do outro.
+// justify-content no eixo X Largura, ele ajusta ao centro
+
+.container{
+border: solid rgb(0, 0, 0);
+justify-content: center;
+display: flex;
+}
+
+.item{
+    background-color: rgb(255, 230, 0);
+    border: solid;
+}
+
+section{
+    margin: 10px 0;
+}
+
+.container1{
+    border: solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container2{
+    border: solid black;
+    display: flex;
+    justify-content: space-around;
+    // space-around: espaço ao redor.
+
+}
+
+.container3{
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    // space-between e o espaço entre a tag.
+}
+
+.container4{
+    border: solid black;
+    display: flex;
+    justify-content: space-evenly;
+    // espaço igual ao redor das tags
+}

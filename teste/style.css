@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: "Cardo", serif;
+  color: rgb(0, 0, 255);
+}
+
+img {
+  width: 150px;
+  border-radius: 100px;
+}
+
+ol {
+  background-color: rgb(255, 255, 255);
+  color: #ff0000;
+}/*# sourceMappingURL=style.css.map */
